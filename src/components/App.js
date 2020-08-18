@@ -30,7 +30,7 @@ class App extends React.Component {
                     <p id='author' style={{ color: `${this.state.color}` }}>{`-${this.state.quote.author}`}</p>
                     <div className='clicks'>
                         <a id='tweet-quote' title='tweet this code' href={`https://twitter.com/intent/tweet?text=${this.state.quote.quote}`} target= "_blank" rel="noopener noreferrer"  style={{ color: `${this.state.color}` }}><i className="fab fa-twitter-square"></i></a>
-                        <button onClick={this.onClick} id='new-quote' className="btn" style={{ backgroundColor: `${this.state.color}` }}>New quote?</button>
+                        <button onClick={this.onClick} id='new-quote' className="btn" style={{ backgroundColor: `${this.state.color}` }}>Quote me...</button>
                     </div>
                 </div>
             </div>
